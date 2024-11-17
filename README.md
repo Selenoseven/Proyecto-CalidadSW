@@ -3,7 +3,7 @@
 
 <ul>
     <li>Descargar XAMPP Control Panel cuya version se tiene es la V3.3.0</li>
-    <li>Descargar el codigo como tipo zip/li>
+    <li>Descargar el codigo como tipo zip</li>
 </ul>
 
 <h3>Una vez instalado se debe seguir los siguientes pasos</h3>
