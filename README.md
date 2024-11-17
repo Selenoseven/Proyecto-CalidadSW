@@ -1,4 +1,4 @@
-
+![preview img](/uploads/principal.png)
 <h2>Como correr el proyecto en su totalidad</h2>
 
 <ul>
