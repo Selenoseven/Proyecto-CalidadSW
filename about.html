@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - PetShop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0a3669;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #30cce7;
+        }
+
+        .valores-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .valor-item {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .valor-item h3 {
+            color: #5d8ed8;
+            margin-bottom: 0.5rem;
+        }
+
+       
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PetShop</div>
+        <p>Tu tienda de confianza para el cuidado de tus mascotas</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Misión</h2>
+            <p>En PetShop, nuestra misión es proporcionar productos y servicios de la más alta calidad para el cuidado y bienestar de perros y gatos, creando una experiencia de compra única que satisfaga las necesidades de las mascotas y sus dueños. Nos comprometemos a ofrecer asesoramiento experto y productos seleccionados cuidadosamente para garantizar una vida feliz y saludable a nuestros amigos peludos.</p>
+        </section>
+
+        <section class="section">
+            <h2>Visión</h2>
+            <p>Aspiramos a ser la tienda de mascotas líder y referente en el mercado, reconocida por nuestra excelencia en el servicio, la calidad de nuestros productos y nuestro compromiso con el bienestar animal. Buscamos crear una comunidad donde los amantes de las mascotas encuentren todo lo necesario para el cuidado de sus compañeros peludos, fomentando relaciones duraderas entre las mascotas y sus familias.</p>
+        </section>
+
+        <section class="section">
+            <h2>Valores</h2>
+            <div class="valores-grid">
+                <div class="valor-item">
+                    <h3>Amor por los Animales</h3>
+                    <p>Nuestro trabajo está impulsado por un genuino amor y respeto por todas las mascotas.</p>
+                </div>
+                <div class="valor-item">
+                    <h3>Calidad</h3>
+                    <p>Ofrecemos solo los mejores productos, cuidadosamente seleccionados para nuestros clientes.</p>
+                </div>
+                <div class="valor-item">
+                    <h3>Compromiso</h3>
+                    <p>Nos dedicamos a proporcionar el mejor servicio y asesoramiento personalizado.</p>
+                </div>
+                <div class="valor-item">
+                    <h3>Honestidad</h3>
+                    <p>Actuamos con transparencia y ética en todas nuestras operaciones.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+</html>
