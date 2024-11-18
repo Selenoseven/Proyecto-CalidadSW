@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="d-flex w-100 justify-content-end">
-            <a href="./?p=checkout" class="btn btn-sm btn-flat btn-dark">Checkout</a>
+            <a href="./?p=checkout" class="btn btn-sm btn-flat btn-dark">Comprar</a>
 
         </div>
     </div>
